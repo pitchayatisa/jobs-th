@@ -3,7 +3,7 @@
 }
 /* menu */
 .bg-color {
-  background-color: #ffffff;
+  background-color: #f5f4fa;
   border-bottom: 3px solid #3c408a;
 }
 nav {
@@ -218,6 +218,19 @@ nav {
   color: #3c408a;
   background: #efedf2;
 }
+/* dropdown card*/
+.btn-location {
+  border: 1px solid #c5c5dd;
+  color: #495057;
+}
+.btn-location:hover {
+  border: 1px solid #3c408a;
+  transition: 0.5s;
+}
+.btn-location:focus {
+  box-shadow: 0px 0.5px 5px #3c408a;
+}
+
 /* flip card */
 .flip-card {
   background-color: transparent;
