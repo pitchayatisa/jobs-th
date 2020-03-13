@@ -307,9 +307,44 @@ nav {
   }
 }
 .card-urgent:hover {
-  background: #c5c5dd;
+  background: #efedf2;
   border-radius: 0.5rem;
   transition: 0.5s;
+}
+/* job category */
+.category {
+  background: #efedf2;
+  padding: 2rem 0 0 0;
+  .title-category {
+    color: #3c408a;
+  }
+  p {
+    padding: 0 0 0 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+}
+/* title cover */
+.title-cover {
+  padding: 2em;
+  background-color: #d7d7ee;
+  h1 {
+    color: #3c408a;
+  }
+  .btn-call {
+    color: #ffffff;
+    background: #3c408a;
+  }
+  .btn-call:hover {
+    color: #3c408a;
+    background: #ffffff;
+    border: 1px solid #3c408a;
+    transition: 0.5s;
+  }
+  .app-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* footer */
 .card-footer {
