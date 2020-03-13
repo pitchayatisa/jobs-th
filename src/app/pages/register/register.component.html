@@ -1,0 +1,196 @@
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg bg-color">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogglerDemo03"
+    aria-controls="navbarTogglerDemo03"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+  <a class="navbar-brand ml-5" [routerLink]="['/']">
+    <h2>Jobs</h2>
+  </a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="mr-auto mt-2 mt-lg-0"></ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-5 mt-2 mt-lg-0">
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/']">Search Jobs</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/resume']">Resume</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/register']">Register</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/login']">Login</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/employer']">Employer</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle dropdown-language"
+            href="#"
+            id="navbardrop"
+            data-toggle="dropdown"
+          >
+            <i class="fas fa-globe"></i> TH
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">ไทย</a>
+            <a class="dropdown-item" href="#">English</a>
+          </div>
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <!-- Your next opportunity is here -->
+    <div class="col-md-7 pb-4">
+      <h1 class="text-center">Your next opportunity is here</h1>
+      <div class="media">
+        <img
+          src="../../../assets/img/signup.jpg"
+          alt=""
+          class="mr-4 img-register"
+        />
+        <div class="media-body">
+          <h5 class="mt-4">
+            <span class="text-jobs">"Create a resume"</span> and get your dream
+            job
+          </h5>
+          Companies can find you from candidate database and contact you for
+          interview.
+        </div>
+      </div>
+      <div class="media">
+        <img
+          src="../../../assets/img/my_job.jpg"
+          alt=""
+          class="mr-4 img-jobs"
+        />
+        <div class="media-body">
+          <h5 class="mt-4">
+            <span class="text-jobs">"My jobs"</span> your job records
+          </h5>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img
+                src="../../../assets/img/tick.png"
+                class="mr-2 tick"
+                alt="..."
+              />
+              <div class="media-body">
+                <h6 class="mt-0">Display your list of applied job.</h6>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img
+                src="../../../assets/img/tick.png"
+                class="mr-2 tick"
+                alt="..."
+              />
+              <div class="media-body">
+                <h6 class="mt-0">View your favorite jobs.</h6>
+              </div>
+            </li>
+            <li class="media">
+              <img
+                src="../../../assets/img/tick.png"
+                class="mr-2 tick"
+                alt="..."
+              />
+              <div class="media-body">
+                <h6 class="mt-0">See companies who viewed your resume.</h6>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="media">
+        <img
+          src="../../../assets/img/job_update.png"
+          alt=""
+          class="mr-4 img-update"
+        />
+        <div class="media-body">
+          <h5 class="mt-4">
+            <span class="text-jobs">"Jobs Update"</span> new jobs to your inbox
+          </h5>
+          Never miss the jobs that you're looking for, we deliver them to your
+          inbox every month.
+        </div>
+      </div>
+    </div>
+    <!-- Job Seekers Registration -->
+    <div class="col-md-5">
+      <div class="card">
+        <h3 class="card-title">Job Seekers Registration</h3>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control b-color"
+                id="Email"
+                placeholder="Email/Username"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control b-color"
+                id="ConfirmEmail"
+                placeholder="Confirm Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control"
+                id="Password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control"
+                id="ConfirmPassword"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <div class="form-group">
+              <p class="text-center">
+                <small>
+                  By registering you agree to
+                  <a href="#" class="forgot-text">Terms and conditions</a>
+                  of Jobs
+                </small>
+              </p>
+            </div>
+            <button type="submit" class="btn btn-register btn-block">
+              Register
+            </button>
+            <small class="form-text">
+              Already have an account?
+              <a [routerLink]="['/login']" class="register-text">Login</a>
+            </small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="card-footer text-center">
+  <small> Copyright © 2020 Pitchayatisa. All Rights Reserved.</small>
+</div>

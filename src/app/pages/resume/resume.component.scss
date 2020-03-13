@@ -1,0 +1,118 @@
+.container {
+  padding-top: 0;
+}
+/* menu */
+.bg-color {
+  background-color: #ffffff;
+  border-bottom: 3px solid #3c408a;
+}
+nav {
+  .navbar-brand {
+    color: #3c408a;
+    text-decoration: none;
+  }
+  .navbar-toggler {
+    background-color: #f5f4fa;
+    border: 1px solid #3c408a;
+    color: #3c408a;
+  }
+  ul li a {
+    color: #3c408a;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+  }
+  ul li a:hover {
+    color: #ffffff;
+    background: #3c408a;
+    transition: 0.5s;
+  }
+  ul li a.dropdown-language {
+    border: 1px solid #3c408a;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.4rem;
+    margin: 0.1rem;
+  }
+  ul li .dropdown-menu {
+    border: 1px solid #c5c5dd;
+  }
+  ul li a.dropdown-item {
+    border-radius: 0;
+  }
+
+  .btn-language {
+    font-size: 15px;
+    color: #3c408a;
+    border: 1px solid #3c408a;
+  }
+  .btn-language:hover {
+    color: #ffffff;
+    background: #3c408a;
+  }
+  .en-text {
+    color: #3c408a;
+  }
+}
+.btn-register {
+  color: #ffffff;
+  background: #3c408a;
+  font-size: 30px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.btn-register:hover {
+  color: #3c408a;
+  border: 1px solid #3c408a;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+/* */
+.text-title {
+  color: #3c408a;
+  text-align: center;
+}
+.img-jobs {
+  width: 100%;
+}
+.m-bottom {
+  margin-bottom: 3.5em;
+}
+.building {
+  background: #efedf2;
+  padding: 0;
+  .img-p {
+    padding: 0;
+  }
+  .img-building {
+    width: 100%;
+  }
+}
+.title-cover {
+  padding: 2em;
+  background-color: #d7d7ee;
+  h1 {
+    color: #3c408a;
+  }
+  .btn-call {
+    color: #ffffff;
+    background: #3c408a;
+  }
+  .btn-call:hover {
+    color: #3c408a;
+    background: #ffffff;
+    border: 1px solid #3c408a;
+    transition: 0.5s;
+  }
+  .app-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.card-footer {
+  padding: 0;
+  background: #3c408a;
+  color: #ffffff;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}

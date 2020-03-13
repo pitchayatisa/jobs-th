@@ -1,0 +1,107 @@
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg bg-color">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogglerDemo03"
+    aria-controls="navbarTogglerDemo03"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+  <a class="navbar-brand ml-5" [routerLink]="['/']"> <h2>Jobs</h2></a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="mr-auto mt-2 mt-lg-0"></ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-5 mt-2 mt-lg-0">
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/']">Search Jobs</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/resume']">Resume</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/register']">Register</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/login']">Login</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/employer']">Employer</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle dropdown-language"
+            href="#"
+            id="navbardrop"
+            data-toggle="dropdown"
+          >
+            <i class="fas fa-globe"></i> TH
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">ไทย</a>
+            <a class="dropdown-item" href="#">English</a>
+          </div>
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-7 pb-5">
+      <img
+        src="../../../assets/img/login_welcome.gif"
+        alt=""
+        class="img-login"
+      />
+    </div>
+    <div class="col-md-5">
+      <div class="card">
+        <h3 class="card-title">Job Seeker Login</h3>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control b-color"
+                id="Email"
+                placeholder="Email/Username"
+              />
+            </div>
+            <br />
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control"
+                id="Password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <p class="text-right">
+                <small>
+                  <a href="#" class="forgot-text">
+                    Forgot Password?
+                  </a></small
+                >
+              </p>
+            </div>
+            <button type="submit" class="btn btn-login btn-block">
+              Login
+            </button>
+            <small class="form-text">
+              Don't have an account?
+              <a [routerLink]="['/register']" class="register-text">Register</a>
+            </small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-footer text-center">
+  <small> Copyright © 2020 Pitchayatisa. All Rights Reserved.</small>
+</div>

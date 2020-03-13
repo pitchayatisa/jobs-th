@@ -1,0 +1,177 @@
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg bg-color">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogglerDemo03"
+    aria-controls="navbarTogglerDemo03"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+  <a class="navbar-brand ml-5" [routerLink]="['/']">
+    <h2>Jobs</h2>
+  </a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="mr-auto mt-2 mt-lg-0"></ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-5 mt-2 mt-lg-0">
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/']">Search Jobs</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/resume']">Resume</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/register']">Register</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/login']">Login</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="nav-link" [routerLink]="['/employer']">Employer</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle dropdown-language"
+            href="#"
+            id="navbardrop"
+            data-toggle="dropdown"
+          >
+            <i class="fas fa-globe"></i> TH
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">ไทย</a>
+            <a class="dropdown-item" href="#">English</a>
+          </div>
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav>
+<!-- Head Cover -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mt-5 mb-4">
+        <h1 class="mb-4">
+          Easy to apply jobs and get discovered by top companies with
+          <span class="text-title">Jobs Resume</span>
+        </h1>
+        <button type="button" class="btn btn-register ">Register</button>
+      </div>
+      <div class="col-md-6 pb-0">
+        <img src="../../../assets/img/login_welcome.gif" class="img-jobs" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Detail -->
+<div class="container">
+  <!-- 1.MANAGE YOUR PRIVACY -->
+  <div class="row">
+    <div class="col-md-6 mt-5 mb-4">
+      <h1 class="mb-4 text-title">
+        MANAGE YOUR PRIVACY
+      </h1>
+      Choose to show or hide your personal information such as mobile phone,
+      address and email.
+    </div>
+    <div class="col-md-6 pb-0">
+      <img src="../../../assets/img/creative-desk.jpg" class="img-jobs" />
+    </div>
+  </div>
+  <!-- 2.APPLY NOW APPLY WITH EASE FOR JOBTHAI MEMBERS ONLY -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="../../../assets/img/job_manage.jpg" class="img-jobs" />
+    </div>
+    <div class="col-md-6  mt-5 mb-4">
+      <h1 class="mb-4 text-title">
+        APPLY NOW APPLY WITH EASE FOR JOBTHAI MEMBERS ONLY
+      </h1>
+      Apply jobs easily with "Apply Now" plus 3 more job application methods for
+      you to choose.
+    </div>
+  </div>
+  <!-- 3.JOBS UPDATE NEW JOBS TO YOUR INBOX -->
+  <div class="row">
+    <div class="col-md-6 mt-5 mb-4">
+      <h1 class="mb-4 text-title">
+        JOBS UPDATE NEW JOBS TO YOUR INBOX
+      </h1>
+      Never miss the jobs that you’re looking for, we deliver them to your inbox
+      every month.
+    </div>
+    <div class="col-md-6 pb-0">
+      <img src="../../../assets/img/E-mail_marketing.png" class="img-jobs" />
+    </div>
+  </div>
+  <!-- 4.MY JOBS YOUR JOB RECORDS -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="../../../assets/img/jobsup.png" class="img-jobs" />
+    </div>
+    <div class="col-md-6  mt-5 mb-4">
+      <h1 class="mb-4 text-title">
+        MY JOBS YOUR JOB RECORDS
+      </h1>
+      Browse your records of applied jobs , favorite jobs, and even companies
+      that viewed your resume!
+    </div>
+  </div>
+</div>
+<div class="text-center mb-5">
+  <button type="button" class="btn btn-register ">Register</button>
+</div>
+<!-- building Cover -->
+<div class="building">
+  <div class="container">
+    <div class="col-md-12 img-p text-center">
+      <img src="../../../assets/img/building.gif" class="img-building" />
+    </div>
+  </div>
+</div>
+<!-- title Cover -->
+<div class="title-cover">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h1>Jobs</h1>
+        <p>Office Hours: Monday-Friday 8:30-18:00</p>
+        <p>For more information: support@jobs.com</p>
+        <p>Advertising: sale@jobs.com</p>
+        <p>Fax: 02-413-9999</p>
+        <div class="text-center">
+          <button type="button" class="btn btn-call mr-3">
+            <i class="fas fa-phone-alt"></i> 02-414-9999
+          </button>
+          <button type="button" class="btn btn-call mr-3">
+            <i class="fas fa-book-reader"></i> Advertise
+          </button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 app-mid">
+        <button type="button" class="btn btn-call mr-3">
+          <i class="fab fa-apple"></i> App Store
+        </button>
+        <button type="button" class="btn btn-call mr-3">
+          <i class="fab fa-google-play"></i> Google Play
+        </button>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h1>Headquarters</h1>
+        <p>323 United Center Building, 14th</p>
+        <p>Floor, Room 1402 A Silom Road,</p>
+        <p>Silom, Bangrak, Bangkok 10500</p>
+        <p>Tax 0125543004205</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<div class="card-footer text-center">
+  <small> Copyright © 2020 Pitchayatisa. All Rights Reserved.</small>
+</div>
