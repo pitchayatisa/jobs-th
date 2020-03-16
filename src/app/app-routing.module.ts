@@ -4,7 +4,8 @@ import {
   HomeComponent,
   LoginComponent,
   RegisterComponent,
-  ResumeComponent
+  ResumeComponent,
+  EmployerComponent
 } from "./routings";
 
 const routes: Routes = [
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: "resume",
     component: ResumeComponent
+  },
+  {
+    path: "employer",
+    component: EmployerComponent
   }
 ];
 

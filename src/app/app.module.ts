@@ -8,6 +8,7 @@ import { LayoutsComponent } from "./layouts/layouts.component";
 import { LoginComponent } from "./pages/login/login.component";
 import { RegisterComponent } from "./pages/register/register.component";
 import { ResumeComponent } from "./pages/resume/resume.component";
+import { EmployerComponent } from "./pages/employer/employer.component";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ResumeComponent } from "./pages/resume/resume.component";
     LayoutsComponent,
     LoginComponent,
     RegisterComponent,
-    ResumeComponent
+    ResumeComponent,
+    EmployerComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
